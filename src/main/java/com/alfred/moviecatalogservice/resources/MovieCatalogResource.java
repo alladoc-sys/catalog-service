@@ -6,7 +6,6 @@ import com.alfred.moviecatalogservice.models.Rating;
 import com.alfred.moviecatalogservice.models.UserRating;
 import com.alfred.moviecatalogservice.services.MovieInfo;
 import com.alfred.moviecatalogservice.services.UserRatingInfo;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
